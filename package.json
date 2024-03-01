@@ -1,0 +1,16 @@
+{
+  "name": "test_numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vladimir Zimin <zimin.frontend@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.chunk": "^4.2.0"
+  }
+}

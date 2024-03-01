@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numbers</title>
+</head>
+
+<body>
+  <h2>Виберіть значення яке треба знайти</h2>
+  <div id="options">
+    <input type="radio" id="max" name="option" value="max">
+    <label for="max">Максимальне число</label><br>
+    <input type="radio" id="min" name="option" value="min">
+    <label for="min">Мінімальне число</label><br>
+    <input type="radio" id="median" name="option" value="median">
+    <label for="median">Медіана</label><br>
+    <input type="radio" id="average" name="option" value="average">
+    <label for="average">Середнє арифметичне значення</label><br>
+    <input type="radio" id="increasing" name="option" value="increasing">
+    <label for="increasing">Найбільша збільшуюча послідовність чисел</label><br>
+    <input type="radio" id="decreasing" name="option" value="decreasing">
+    <label for="decreasing">Найбільша зменшуюча послідовність чисел</label><br>
+
+
+  </div>
+  <br />
+  <br />
+  <br />
+  <h3>Завантажте файл</h3>
+  <input type="file" class="fileInput" disabled>
+
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./app.js" type="module"></script>
+</body>
+
+</html>
